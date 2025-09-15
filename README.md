@@ -52,7 +52,10 @@ Early-stage investors often struggle with **information overload** from unstruct
 
 ## 🖼️ Screenshots / Diagrams  
 
-👉 *(Add product images, system architecture, or demo screenshots here)*  
+<img width="1661" height="959" alt="image" src="https://github.com/user-attachments/assets/c702573e-dd2a-4dbe-bcd9-bb19b5c42bea" />
+<img width="1667" height="952" alt="image" src="https://github.com/user-attachments/assets/2a759ed1-cd65-4356-b01a-d5d38634d7e0" />
+
+ 
 
 
 ---
