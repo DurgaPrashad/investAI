@@ -1,108 +1,141 @@
+<div align="center">
 
-<<<<<<< HEAD
+# 🚀 Finxan AI  
+### AI-Powered Startup Evaluation Platform  
 
+---
 
-# Finxan AI: AI-Powered Startup Evaluation
+**Finxan AI** is an intelligent analyst platform designed to help early-stage investors evaluate startups with speed, accuracy, and consistency.  
+It ingests founder materials, benchmarks startups, flags risks, and produces actionable investment insights at scale.  
 
+</div>
 
-## Project Overview
+---
 
-Finxan AI is an AI-powered analyst platform designed to help early-stage investors evaluate startups efficiently. The platform ingests founder materials and public data, benchmarks startups, flags risks, and generates actionable investment insights.
+## 📌 Project Overview  
 
+Early-stage investors often struggle with **information overload** from unstructured data such as pitch decks, founder calls, emails, and news. Manual analysis is **slow, inconsistent, and error-prone**.  
 
-## Current Stage
+**Finxan AI** solves this challenge by:  
+- Automating startup analysis  
+- Benchmarking against sector peers  
+- Flagging potential risks  
+- Generating investor-ready insights  
 
-- Backend and frontend scaffolding complete
-- API slots for all solution capabilities added
-- Google AI tech stack integration in progress
+---
 
-## Challenge
+## 🏗️ Current Stage  
 
+- ✅ Backend and frontend scaffolding complete  
+- ✅ API slots for solution capabilities added  
+- 🚧 Google AI tech stack integration in progress  
 
-Early-stage investors face information overload from unstructured startup data (pitch decks, founder calls, emails, news). Manual analysis is slow and inconsistent. Finxan AI automates analysis and generates investor-ready insights at scale.
+---
 
-## Objective
+## 🎯 Objectives  
 
+- Build an **AI-powered analyst** that reviews founder materials & public data  
+- Provide **concise, actionable deal notes** with clear benchmarks & risks  
+- Scale insights across **multiple sectors & geographies**  
 
-Build an AI-powered analyst that reviews founder material and public data to create concise, actionable deal notes with clear benchmarks and risk assessments across sectors and geographies.
+---
 
+## ⚡ Solution Capabilities  
 
-## Solution Capabilities
+- 📂 **Ingestion:** Upload & parse pitch decks, transcripts, updates, emails  
+- 📊 **Benchmarking:** Compare with sector peers using financial multiples, hiring data, traction signals  
+- ⚠️ **Risk Analysis:** Detect inconsistencies, inflated markets, abnormal churn  
+- 📈 **Growth Summary:** Assess growth potential & recommendations  
+- 📝 **Investor Reports:** Generate investor-ready notes & recommendations  
 
-- **Ingest founder materials and public data:** Upload pitch decks, transcripts, updates, emails
-- **Benchmark startups:** Compare against sector peers using financial multiples, hiring data, traction signals
-- **Risk analysis:** Flag inconsistent metrics, inflated market size, unusual churn patterns
-- **Growth summary:** Summarize growth potential and generate recommendations
-- **Investor-ready recommendations:** Tailored to customizable weightages
+---
 
+## 🖼️ Screenshots / Diagrams  
 
-
-## Technologies Used
-
-- **React:** Frontend UI framework
-- **JavaScript:** Scalable frontend development (converted from TypeScript)
-- **Tailwind CSS:** Utility-first CSS framework for rapid UI styling
-- **Next.js:** React framework for server-side rendering and routing
-- **Theme Toggle:** Custom component for switching between light and dark modes
-- **Python:** Backend language for AI logic, data processing, and API endpoints
-- **Flask:** Python web framework for building RESTful APIs
-- **MongoDB:** NoSQL database for storing startup and analysis data (integration planned)
-- **Google Gemini:** Advanced AI model for natural language understanding and synthesis
-- **Vertex AI:** Managed ML platform for training, deploying, and managing models
-- **Cloud Vision:** Google API for image analysis and extraction from pitch decks
-- **BigQuery:** Google data warehouse for analytics and benchmarking
-- **Firebase:** Google platform for authentication, real-time database, and hosting
-- **Agent Builder:** Google tool for building custom AI workflows and agents
-- **Markdown Docs:** Project documentation and feature guides
-- **JSON Schemas:** Data models for validation and interoperability
+👉 *(Add product images, system architecture, or demo screenshots here)*  
 
 
+---
 
-## Folder Structure
+## 🛠️ Tech Stack  
 
-- `src/` - React frontend
-- `backend/` - Python backend
-- `docs/` - Documentation
-- `schemas/` - Data models and database schemas
+**Frontend:**  
+- React (UI Framework)  
+- Next.js (SSR & Routing)  
+- Tailwind CSS (Utility-first Styling)  
+- JavaScript (converted from TypeScript)  
+- Custom Theme Toggle (Light/Dark Mode)  
 
+**Backend:**  
+- Python (AI Logic & APIs)  
+- Flask (RESTful API Framework)  
+- MongoDB (Planned: NoSQL Database)  
 
+**Google Cloud AI:**  
+- Gemini (Advanced AI Model for NLU & Synthesis)  
+- Vertex AI (ML Training & Deployment)  
+- Cloud Vision (Image Parsing for Pitch Decks)  
+- BigQuery (Analytics & Benchmarking)  
+- Firebase (Authentication, Hosting, Realtime DB)  
+- Agent Builder (Custom AI Agents)  
 
-## Solution Approach
+**Other Tools:**  
+- Markdown Docs (Documentation)  
+- JSON Schemas (Validation & Data Models)  
 
-1. **Automated Ingestion:** Upload and parse founder materials and public data
-2. **AI Benchmarking:** Use Google AI to compare startups to sector benchmarks
-3. **Risk Analysis:** Automated flagging of red flags using ML models
-4. **Growth & Recommendations:** Summarize and recommend using AI-driven scoring
-5. **Scalable API:** Modular endpoints for each analysis step
+---
 
-
-## How Python Works in This Project
-
-The Python backend powers all AI and data analysis features for Finxan AI. It is organized into modular files for each capability:
-
-- **ingest.py:** Handles ingestion of founder materials and public data (pitch decks, transcripts, emails).
-- **benchmark.py:** Benchmarks startups against sector peers using financial multiples, hiring data, and traction signals.
-- **risk_analysis.py:** Flags potential risk indicators such as inconsistent metrics, inflated market size, or unusual churn patterns.
-- **growth_potential.py:** Summarizes growth potential and generates investor-ready recommendations.
-- **ai_integration.py:** Connects to Google AI technologies (Gemini, Vertex AI, Cloud Vision, BigQuery, Firebase, Agent Builder).
-- **report_generator.py:** Generates structured deal notes and investor-ready reports.
-- **api.py:** Exposes RESTful API endpoints for frontend-backend communication.
-
-The backend is designed for scalability and modularity, allowing easy integration with new AI models, data sources, and analytics workflows. All sensitive credentials are managed via environment variables for security.
-
+## 📂 Project Structure  
 
 
-## Next Steps
-
-- Implement MongoDB integration for data storage
-- Connect Python backend to Google AI APIs
-- Build frontend forms for data upload and analysis display
-- Add authentication and user management
-
+FinxanAI/
+├── src/          # React frontend  
+├── backend/      # Python backend  
+├── docs/         # Documentation  
+└── schemas/      # Data models & database schemas  
 
 
-## Contribution
+---
 
-See `docs/project_overview.md` for more details
-=======
->>>>>>> df592486190fdaf4b6e035e6166dc61c6bb9bb59
+## ⚙️ Solution Approach  
+
+1. **Automated Ingestion:** Parse founder materials & public data  
+2. **AI Benchmarking:** Compare startups with sector data using Google AI  
+3. **Risk Detection:** Automatically flag inconsistencies & anomalies  
+4. **Growth & Recommendations:** Summarize potential & generate scoring-based reports  
+5. **Scalable APIs:** Modular REST endpoints for each capability  
+
+---
+
+## 🐍 Python Backend Workflow  
+
+- `ingest.py` → Ingests founder materials & public data  
+- `benchmark.py` → Benchmarks startups against sector peers  
+- `risk_analysis.py` → Detects risks & anomalies  
+- `growth_potential.py` → Summarizes growth & generates insights  
+- `ai_integration.py` → Connects with Google AI tools (Gemini, Vertex, Cloud Vision, BigQuery, Firebase, Agent Builder)  
+- `report_generator.py` → Creates structured deal notes & reports  
+- `api.py` → REST API endpoints for frontend-backend communication  
+
+---
+
+## 📅 Next Steps  
+
+- 🔗 MongoDB integration for persistent storage  
+- 🤝 Connect Python backend to Google AI APIs  
+- 🖥️ Build frontend upload & analysis display forms  
+- 🔐 Add authentication & user management  
+
+---
+
+## 🤝 Contribution  
+
+See [`docs/project_overview.md`](./docs/project_overview.md) for detailed contribution guidelines.  
+
+---
+
+<div align="center">
+
+✨ Built with passion by the **Finxan AI Team** ✨  
+
+</div>
