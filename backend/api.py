@@ -6,10 +6,16 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 # API slot: Ingest founder materials and public data
+
+from ingest import ingest_founder_materials
+
 @app.route('/ingest', methods=['POST'])
 def ingest_api():
-    # TODO: Call ingest_founder_materials
-    return jsonify({'status': 'ingest slot'})
+    # Expecting a JSON payload with 'files' (list of file paths)
+    data = request.get_json()
+    files = data.get('files', [])
+    results = ingest_founder_materials(files)
+    return jsonify({'analysis': results})
 
 # API slot: Benchmark startups
 @app.route('/benchmark', methods=['POST'])
