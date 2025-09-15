@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Startup",
+  "type": "object",
+  "properties": {
+    "name": { "type": "string" },
+    "sector": { "type": "string" },
+    "metrics": { "type": "object" }
+  },
+  "required": ["name", "sector", "metrics"]
+}

@@ -112,7 +112,10 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground font-inter antialiased;
-    background: var(--gradient-terminal);
+    background: #fff;
+  }
+  .dark body {
+    background: #000;
   }
 }
 

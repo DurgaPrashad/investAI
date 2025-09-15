@@ -1,0 +1,9 @@
+{
+  "name": "AI Fintech",
+  "sector": "Finance",
+  "metrics": {
+    "revenue": 1200000,
+    "growth_rate": 0.25,
+    "churn": 0.05
+  }
+}
