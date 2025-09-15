@@ -2,7 +2,7 @@
 
 # 🚀 Finxan AI  
 ### AI-Powered Startup Evaluation Platform  
-<img width="1617" height="852" alt="image" src="https://github.com/user-attachments/assets/34423224-865f-41b6-91d2-0fd62027a776" />
+
 
 ---
 
