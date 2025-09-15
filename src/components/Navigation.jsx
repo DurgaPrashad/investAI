@@ -23,7 +23,7 @@ function Navigation({ currentPage, onPageChange }) {
             <div className="w-10 h-10 gradient-primary rounded-xl flex items-center justify-center shadow-glow animate-float">
               <BarChart3 className="h-6 w-6 text-primary-foreground" />
             </div>
-            <span className="text-2xl font-bold text-foreground text-3d">InvestAI</span>
+            <span className="text-2xl font-bold text-foreground text-3d">Finxan AI</span>
           </div>
 
           {/* Desktop Navigation */}

@@ -1,11 +1,14 @@
 
 <<<<<<< HEAD
 
-# InvestAI: AI Analyst for Startup Evaluation
+
+# Finxan AI: AI-Powered Startup Evaluation
+
 
 ## Project Overview
 
-InvestAI is an AI-powered analyst platform designed to help early-stage investors evaluate startups efficiently. The platform ingests founder materials and public data, benchmarks startups, flags risks, and generates actionable investment insights.
+Finxan AI is an AI-powered analyst platform designed to help early-stage investors evaluate startups efficiently. The platform ingests founder materials and public data, benchmarks startups, flags risks, and generates actionable investment insights.
+
 
 ## Current Stage
 
@@ -15,11 +18,14 @@ InvestAI is an AI-powered analyst platform designed to help early-stage investor
 
 ## Challenge
 
-Early-stage investors face information overload from unstructured startup data (pitch decks, founder calls, emails, news). Manual analysis is slow and inconsistent. InvestAI automates analysis and generates investor-ready insights at scale.
+
+Early-stage investors face information overload from unstructured startup data (pitch decks, founder calls, emails, news). Manual analysis is slow and inconsistent. Finxan AI automates analysis and generates investor-ready insights at scale.
 
 ## Objective
 
+
 Build an AI-powered analyst that reviews founder material and public data to create concise, actionable deal notes with clear benchmarks and risk assessments across sectors and geographies.
+
 
 ## Solution Capabilities
 
@@ -28,6 +34,7 @@ Build an AI-powered analyst that reviews founder material and public data to cre
 - **Risk analysis:** Flag inconsistent metrics, inflated market size, unusual churn patterns
 - **Growth summary:** Summarize growth potential and generate recommendations
 - **Investor-ready recommendations:** Tailored to customizable weightages
+
 
 
 ## Technologies Used
@@ -50,12 +57,14 @@ Build an AI-powered analyst that reviews founder material and public data to cre
 - **JSON Schemas:** Data models for validation and interoperability
 
 
+
 ## Folder Structure
 
 - `src/` - React frontend
 - `backend/` - Python backend
 - `docs/` - Documentation
 - `schemas/` - Data models and database schemas
+
 
 
 ## Solution Approach
@@ -66,9 +75,10 @@ Build an AI-powered analyst that reviews founder material and public data to cre
 4. **Growth & Recommendations:** Summarize and recommend using AI-driven scoring
 5. **Scalable API:** Modular endpoints for each analysis step
 
+
 ## How Python Works in This Project
 
-The Python backend powers all AI and data analysis features. It is organized into modular files for each capability:
+The Python backend powers all AI and data analysis features for Finxan AI. It is organized into modular files for each capability:
 
 - **ingest.py:** Handles ingestion of founder materials and public data (pitch decks, transcripts, emails).
 - **benchmark.py:** Benchmarks startups against sector peers using financial multiples, hiring data, and traction signals.
@@ -81,12 +91,14 @@ The Python backend powers all AI and data analysis features. It is organized int
 The backend is designed for scalability and modularity, allowing easy integration with new AI models, data sources, and analytics workflows. All sensitive credentials are managed via environment variables for security.
 
 
+
 ## Next Steps
 
 - Implement MongoDB integration for data storage
 - Connect Python backend to Google AI APIs
 - Build frontend forms for data upload and analysis display
 - Add authentication and user management
+
 
 
 ## Contribution
